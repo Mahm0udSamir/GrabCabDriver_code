@@ -2903,11 +2903,6 @@ grpc@1.22.2:
     node-pre-gyp "^0.13.0"
     protobufjs "^5.0.3"
 
-hammerjs@^2.0.8:
-  version "2.0.8"
-  resolved "https://registry.yarnpkg.com/hammerjs/-/hammerjs-2.0.8.tgz#04ef77862cff2bb79d30f7692095930222bf60f1"
-  integrity sha1-BO93hiz/K7edMPdpIJWTAiK/YPE=
-
 has-ansi@^2.0.0:
   version "2.0.0"
   resolved "https://registry.yarnpkg.com/has-ansi/-/has-ansi-2.0.0.tgz#34f5049ce1ecdf2b0649af3ef24e45ed35416d91"
@@ -4742,15 +4737,10 @@ pump@^3.0.0:
     end-of-stream "^1.1.0"
     once "^1.3.1"
 
-qs@^5.2.0:
-  version "5.2.1"
-  resolved "https://registry.yarnpkg.com/qs/-/qs-5.2.1.tgz#801fee030e0b9450d6385adc48a4cc55b44aedfc"
-  integrity sha1-gB/uAw4LlFDWOFrcSKTMVbRK7fw=
-
-qs@^6.5.0:
-  version "6.8.0"
-  resolved "https://registry.yarnpkg.com/qs/-/qs-6.8.0.tgz#87b763f0d37ca54200334cd57bb2ef8f68a1d081"
-  integrity sha512-tPSkj8y92PfZVbinY1n84i1Qdx75lZjMQYx9WZhnkofyxzw2r7Ho39G3/aEvSUdebxpnnM4LZJCtvE/Aq3+s9w==
+qs@^6.5.0, qs@~6.9.1:
+  version "6.9.7"
+  resolved "https://registry.yarnpkg.com/qs/-/qs-6.9.7.tgz#4610846871485e1e048f44ae3b94033f0e675afe"
+  integrity sha512-IhMFgUmuNpyRfxA90umL7ByLlgRXu6tIfKPpF5TmcfRLlLCckfP/g3IQmju6jjpu+Hh8rA+2p6A27ZSPOOHdKw==
 
 query-string@^6.4.2:
   version "6.8.2"
@@ -4878,15 +4868,14 @@ react-native-elements@^1.1.0:
     react-native-ratings "^6.3.0"
     react-native-status-bar-height "^2.2.0"
 
-react-native-gesture-handler@^1.3.0:
-  version "1.4.1"
-  resolved "https://registry.yarnpkg.com/react-native-gesture-handler/-/react-native-gesture-handler-1.4.1.tgz#c38d9e57637b95e221722a79f2bafac62e3aeb21"
-  integrity sha512-Ffcs+SbEbkGaal0CClYL+v7A9y4OA5G5lW01qrzjxaqASp5C8BfnWSKuqYKE00s6bLwE5L4xnlHkG0yIxAtbrQ==
+react-native-gesture-handler@1.3.0:
+  version "1.3.0"
+  resolved "https://registry.yarnpkg.com/react-native-gesture-handler/-/react-native-gesture-handler-1.3.0.tgz#d0386f565928ccc1849537f03f2e37fd5f6ad43f"
+  integrity sha512-ASRFIXBuKRvqlmwkWJhV8yP2dTpvcqVrLNpd7FKVBFHYWr6SAxjGyO9Ik8w1lAxDhMlRP2IcJ9p9eq5X2WWeLQ==
   dependencies:
-    hammerjs "^2.0.8"
     hoist-non-react-statics "^2.3.1"
-    invariant "^2.2.4"
-    prop-types "^15.7.2"
+    invariant "^2.2.2"
+    prop-types "^15.5.10"
 
 react-native-gifted-chat@^0.9.11:
   version "0.9.11"
@@ -4912,14 +4901,14 @@ react-native-google-maps-directions@^2.1.0:
   resolved "https://registry.yarnpkg.com/react-native-google-maps-directions/-/react-native-google-maps-directions-2.1.0.tgz#b7b1088551f8952a8a6cc5e6d65a19702889a35b"
   integrity sha512-qAUqI3eb+5yMXq107g05NBzBAhXufe+kdHhMso1EJrMrH7QS8pFFGI177en2xdBDOjMzdw4Yxemzfaiwb+9I3w==
 
-react-native-google-places-autocomplete@1.3.9:
-  version "1.3.9"
-  resolved "https://registry.yarnpkg.com/react-native-google-places-autocomplete/-/react-native-google-places-autocomplete-1.3.9.tgz#34c2e8b51df40ecb55ef3ccf57caba4c89ff9b56"
-  integrity sha512-bMZRYLpkuhvWE+UYmONw5fsEBM9cyJcSBESHTCKT8ZIydi+HKEM4rKZ+qLvgeHMPD2wpWRNwMJFDhR+ja/datQ==
+react-native-google-places-autocomplete@1.9.0:
+  version "1.9.0"
+  resolved "https://registry.yarnpkg.com/react-native-google-places-autocomplete/-/react-native-google-places-autocomplete-1.9.0.tgz#d88bdbb78ca78d5223e1fdf8701d75625f2a2833"
+  integrity sha512-gYWwI6ZeCxW8zkknMPcQ8oSGe5vckNFagIrGx9Fpqf4j/CAoxAYm7gHrHvipTLLKtEIhwlK3gb4VntyQg4bwmw==
   dependencies:
     lodash.debounce "^4.0.8"
     prop-types "^15.5.10"
-    qs "^5.2.0"
+    qs "~6.9.1"
 
 react-native-iphone-x-helper@^1.2.0:
   version "1.2.1"
